@@ -63,10 +63,9 @@ def build_dataset():
 #main code
 model = load_models()
 
-build_dataset()
-"""while(1):
+while(1):
     picture_path = input("give the image path : ")
     distance = int(input("Enter the distance : "))
     results = model(picture_path)
     df = stacking_results(results , distance) 
-    boundings_builder(picture_path , df)"""
+    boundings_builder(picture_path , df)
